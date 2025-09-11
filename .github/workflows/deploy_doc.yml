@@ -3,10 +3,10 @@ name: Deploy Documentation
 on:
   push:
     branches:
-      - main
+      - rtdocs
   pull_request:
     branches:
-      - main
+      - rtdocs
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
