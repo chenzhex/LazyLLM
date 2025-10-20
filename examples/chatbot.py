@@ -9,7 +9,8 @@ import lazyllm
 #   3. Directly pass the absolute path to TrainableModule:
 #           `path/to/modelazoo/Qwen3-30B-A3B-Instruct-2507`
 
-chat = lazyllm.TrainableModule('Qwen3-30B-A3B-Instruct-2507').deploy_method(lazyllm.deploy.vllm)
+chat = lazyllm.TrainableModule('internlm2-chat-7b').deploy_method(lazyllm.deploy.vllm)
 
 if __name__ == '__main__':
     lazyllm.WebModule(chat, port=range(23466, 23470)).start().wait()
+    # print(chat.start()('hello'))
