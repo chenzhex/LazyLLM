@@ -32,7 +32,7 @@ pip install lazyllm httpx
 
 ### 准备 API KEY
 
-要使用 Bocha API，需要先前往[Bocha Open 平台](https://open.bochaai.com/overview) 注册并登录账号，然后在 “API KEY 管理” 页面创建新的 API 密钥并复制保存，最后将该密钥配置到本地环境变量中即可开始使用。若需要免费额度，可在[官方开发文档](https://bocha-ai.feishu.cn/wiki/RWdvw557Li3IJekGeLkcDFa3n1f) 查看获取方式，并在 Bocha API 首页的“资源包管理”中订阅“免费试用”套餐。
+要使用 Bocha API，需要先前往[Bocha Open 平台](https://open.bochaai.com/overview)注册并登录账号，然后在 “API KEY 管理” 页面创建新的 API 密钥并复制保存，最后将该密钥配置到本地环境变量中即可开始使用。若需要免费额度，可在[官方开发文档](https://bocha-ai.feishu.cn/wiki/RWdvw557Li3IJekGeLkcDFa3n1f)查看获取方式，并在 Bocha API 首页的“资源包管理”中订阅“免费试用”套餐。
 
 ```bash
 export BOCHA_API_KEY=your_bocha_api_key     # 您的 Bocha API KEY
