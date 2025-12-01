@@ -21,6 +21,7 @@
   - 维基搜索: Cookbook/WikiAgent.md
   - 多轮对话: Cookbook/camel_agent.md
   - 带工具的辩论代理: Cookbook/agent_debates_with_tools.md
+  - 多智能体报告生成: Cookbook/multi-agent_report_generation.md
 - 最佳实践:
   - 工作流: Best Practice/flow.md
   - 流程应用: Best Practice/flowapp.md

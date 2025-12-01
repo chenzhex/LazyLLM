@@ -12,8 +12,6 @@ You will see how each agent performs on-the-fly retrieval, cites real web conten
     - How to define a `DialogueAgentWithTools` class using [ReactAgent][lazyllm.tools.ReactAgent] to build tool-enabled agents;
     - How to design a `Moderator` to orchestrate the debate, control rounds, and generate the final summary.
 
-Here is the polished English translation, keeping the technical tone and structure clear and professional:
-
 ## Design Overview
 
 Our goal is to build a multi-agent debate system in which each agent can automatically invoke external tools and combine retrieved evidence with its own knowledge to defend its stance. Each agent has a distinct point of view (e.g., Accelerationist vs. Alarmist) and is able to call retrieval tools in real time to support its arguments during the debate.
@@ -44,7 +42,7 @@ Before getting started, please install the required libraries:
 pip install lazyllm requests beautifulsoup4
 ```
 
-### Prepare API Key
+### Prepare API KEY
 
 The `GoogleSearch` tool relies on the Google Custom Search API.
 Please apply for an API Key and a Search Engine ID via

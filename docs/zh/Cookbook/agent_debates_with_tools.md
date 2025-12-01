@@ -40,7 +40,7 @@
 pip install lazyllm requests beautifulsoup4
 ```
 
-### 准备 API Key
+### 准备 API KEY
 
 `GoogleSearch` 工具依赖 Google Custom Search API，请先前往 [Google Developers](https://developers.google.com/custom-search/v1/overview?hl=zh-cn) 申请 API Key 与 Search Engine ID。
 

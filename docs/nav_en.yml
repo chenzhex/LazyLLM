@@ -21,6 +21,7 @@
   - Wiki Agent: Cookbook/WikiAgent.md
   - Multi-turn dialogue: Cookbook/camel_agent.md
   - Agent Debate with Tools: Cookbook/agent_debates_with_tools.md
+  - Multi-Agent Report Generation: Cookbook/multi-agent_report_generation.md
 - Best Practice:
   - Flow: Best Practice/flow.md
   - Flowapp: Best Practice/flowapp.md
